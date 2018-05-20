@@ -1,0 +1,359 @@
+body {
+   font-family: sans-serif;
+	 background-color: #027f9f;
+}
+
+@font-face {
+	font-family: "coolvetica";
+	src: url(../fonts/coolvetica%20rg.ttf)
+}
+
+@font-face {
+  font-family: "Century Gothic";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Century Gothic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Century Gothic";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/GOTHICB.ttf") format("truetype");
+}
+
+header{
+   background: url(../img/CAT.png) center no-repeat;
+   background-size: contain;
+   width: 55.7%;
+   /* max-width: 960px; */
+   margin: auto;
+   position: relative;
+   padding-top: 40px;
+   padding-right: 40px;
+   padding-left: 40px;
+   min-height: 845px;
+}
+
+header h1{
+  font-family: "coolvetica";
+  letter-spacing: 4px;
+  color: #ffffff;
+  font-size: 8vw;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+ .portrait{
+   border-radius: 90px;
+   text-align: center;
+   border-color: rgba(123,189,215,0.8);
+   border-style: solid;
+   border-width: thick;
+   position: absolute;
+   top: 110px;
+   left: 180px;
+   z-index: 1;
+ }
+
+ .about_txt{
+   padding-right: 200px;
+ }
+
+p {
+  background-color: #fff;
+  opacity: 0.8;
+  border-radius: 25px;
+  padding: 60px;
+  width: 550px;
+  margin-left: 80px;
+  border-top: 180px solid #fff;
+  line-height: 1.6;
+  font-family: "Century Gothic";
+  font-weight: 400;
+  font-size: 20px;
+  color: #004963;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+   padding: 0;
+   margin: 50px;
+   list-style: none;
+   float: right;
+   margin-top: 90px;
+}
+
+nav ul li {
+   width: 140px;
+   height: 140px;
+   font-size: 26px;
+   line-height: 140px;
+}
+
+nav ul li a {
+   display: block;
+   width: 100%;
+   height: 100%;
+   transition: 375ms;
+   margin: 20px;
+   font-family: 'coolvetica';
+   background-color: #ffffff;
+   opacity: 0.5;
+   border-radius: 50%;
+}
+
+.size{
+  width: 160px;
+  height: 160px;
+  line-height: 160px;
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+  margin-left: -5px;
+}
+
+a:link {
+   color: blue;
+   text-decoration: none;
+}
+
+a:hover {
+   background-color: #ddf;
+}
+
+a:active {
+   background-color: #fff;
+}
+
+.home, .contact {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.portfolio{
+  background-image: none;
+  background-color: #027f9f;
+  background-size: 100px 100px;
+}
+
+.weight{
+  font-size: 40px;
+  width: 700px;
+  color: #004963;
+  font-family: "coolvetica";
+  position: relative;
+}
+
+.blue-monster {
+  width: 90%;
+  height: 800px;
+  background-image: url('../img/cat.png');
+  background-color: #004963;
+  background-size: 550px 550px;
+  background-position: 90px 300px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  /*position: absolute;
+  z-index: 1;*/
+}
+
+
+  .column {
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+    }
+
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      z-index: 1;
+}
+
+@media (max-width: 1244px) {
+  .blue-monster {
+    background-size: 100px 100px;
+    background-position: 0 100px;
+  }
+}
+
+@media (max-width: 920px) {
+
+  .blue-monster {
+    background-size: 100px 100px;
+    background-position: 0 100px;
+  }
+
+  header h1 {
+    font-size: 9vw;
+  }
+
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+
+  .about_txt{
+    padding-right: 0;
+  }
+  header{
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+  }
+  .about p{
+    margin-top: 40px;
+    width: 400px;
+  }
+  nav{
+    position: static;
+  }
+  nav ul{
+    float: none;
+    margin: 0
+  }
+  nav ul li{
+    display: inline-block;
+  }
+  nav ul li a{
+    margin: 20px;
+  }
+
+@media (max-width: 770px){
+  a.contacts {
+      background: center center no-repeat transparent;
+      width: 45px;
+      height: 45px;
+      position: fixed;
+      left: 10px;
+      top: 15px;
+      display: block;
+      z-index: 10;
+  }
+    a.contacts:before, a.contacts:after, a.contacts span {
+      background: #fff;
+      content: '';
+      display: block;
+      width: 30px;
+      height: 5px;
+      position: absolute;
+      left: 10px;
+      -webkit-transition: none .5s ease .5s;
+      transition: none .5s ease .5s;
+      -webkit-transition-property: transform,top,bottom,left,opacity;
+      transition-property: transform,top,bottom,left,opacity;
+    }
+    a.contacts:before, a.contacts:after, a.contacts span {
+      background: #fff;
+      content: '';
+      display: block;
+      width: 30px;
+      height: 5px;
+      position: absolute;
+      left: 10px;
+      -webkit-transition: none .5s ease .5s;
+      transition: none .5s ease .5s;
+      -webkit-transition-property: transform,top,bottom,left,opacity;
+      transition-property: transform,top,bottom,left,opacity;
+  }
+  a.contacts:before, a.contacts:after, a.contacts span {
+      background: #fff;
+      content: '';
+      display: block;
+      width: 30px;
+      height: 5px;
+      position: absolute;
+      left: 10px;
+      -webkit-transition: none .5s ease .5s;
+      transition: none .5s ease .5s;
+      -webkit-transition-property: transform,top,bottom,left,opacity;
+      transition-property: transform,top,bottom,left,opacity;
+  }
+   a.contacts:before {
+      top: 10px;
+  }
+  a.contacts:after {
+      top: 20px;
+  }
+  nav{
+    display: none;
+    position: fixed;
+    top: 45px;
+    bottom: auto;
+    left: 10px;
+    right: 0;
+    z-index: 99;
+
+  }
+  nav ul{
+    float: none;
+    width: 200px;
+  }
+  nav ul li a,.size,nav ul li{
+    width: 100%;
+    border-radius: 0;
+    height: auto;
+    margin: 0;
+    line-height: 1.8;
+
+  }
+  .size, nav ul li{
+    font-size: 20px
+  }
+  .home header h1{
+    font-size: 50px;
+    padding-right: 0px;
+  }
+
+  header{
+    background: #033d54 url(../img/CAT.png) center no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    padding-bottom: 0;
+    box-sizing: border-box;
+  }
+
+  .contact header, .portfolio header {
+      background-size: contain;
+  }
+
+  .about p{
+    margin-top: 50px;
+  }
+
+  .imagebox{
+    padding: 30px 0
+  }
+
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+.txt{
+  background-color: #fff;
+  opacity: 0.8;
+  border-radius: 25px;
+  padding: 50px;
+  width: 700px;
+  margin-left: 80px;
+  border-top: 0px solid #fff;
+  line-height: 1.6;
+  font-family: "Century Gothic";
+  font-weight: 700;
+  color: #004963;
+  text-align: center;
+  z-index: 2;
+ }
