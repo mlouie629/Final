@@ -1,0 +1,45 @@
+.blue-monster {
+  background-size: 100px 100px;
+  background-position: 0 100px;
+}
+
+header h1 {
+  font-size: 9vw;
+}
+
+.column {
+  flex: 50%;
+  max-width: 50%;
+}
+
+.about_txt {
+  padding-right: 0;
+}
+
+header {
+  width: 100%;
+  box-sizing: border-box;
+  padding-bottom: 30px;
+}
+
+.about p {
+  margin-top: 40px;
+  width: 400px;
+}
+
+nav {
+  position: static;
+}
+
+nav ul {
+  float: none;
+  margin: 0
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  margin: 20px;
+}
