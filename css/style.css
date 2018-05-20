@@ -30,9 +30,9 @@ p {
   z-index: 1;
 }
 
- .about_txt{
+.about_txt{
    padding-right: 200px;
- }
+}
 
 .size{
   width: 160px;
@@ -41,7 +41,7 @@ p {
   font-size: 40px;
   padding: 0;
   margin: 0;
-  margin-left: -5px;
+  margin-left: -10px;
 }
 
 .home,
@@ -62,15 +62,6 @@ p {
   color: #004963;
   font-family: "coolvetica";
   position: relative;
-}
-
-.blue-monster {
-  width: 90%;
-  height: 800px;
-  background-image: url('../img/cat.png');
-  background-color: #004963;
-  background-size: 550px 550px;
-  background-position: 90px 300px;
 }
 
 .row {

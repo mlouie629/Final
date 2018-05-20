@@ -11,6 +11,15 @@ header {
    min-height: 845px;
 }
 
+.blue-monster {
+  width: 90%;
+  height: 800px;
+  background-image: url('../img/cat.png');
+  background-color: #004963;
+  background-size: 550px 550px;
+  background-position: 90px 300px;
+}
+
 header h1 {
   font-family: "coolvetica";
   letter-spacing: 4px;
@@ -18,5 +27,5 @@ header h1 {
   font-size: 8vw;
   position: absolute;
   margin-top: 80px;
-  margin-left: 20px;
+  margin-left: 40px;
 }

@@ -1,3 +1,8 @@
+.blue-monster {
+  background-size: 200px 200px;
+  background-position: 110px 140px;
+}
+
 a.contacts {
   background: center center no-repeat transparent;
   width: 45px;
@@ -96,7 +101,7 @@ nav ul li {
 }
 
 .home header h1 {
-  font-size: 50px;
+  font-size: 20px;
   padding-right: 0;
 }
 
