@@ -3,6 +3,19 @@ body {
 	 background-color: #027f9f;
 }
 
+#container {
+  background-color: #004963;
+  width: 90%;
+  height: 800px;
+  background-image: url('../img/cat.png');
+  background-color: #004963;
+  background-size: 550px 550px;
+  background-position: 90px 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "coolvetica";
+}
+
 p {
   background-color: #fff;
   opacity: 0.8;

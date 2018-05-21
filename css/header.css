@@ -1,24 +1,15 @@
-header {
+/*header {
    background: url(../img/CAT.png) center no-repeat;
    background-size: contain;
    width: 55.7%;
-   /* max-width: 960px; */
    margin: auto;
    position: relative;
    padding-top: 40px;
    padding-right: 40px;
    padding-left: 40px;
    min-height: 845px;
-}
+} */
 
-.blue-monster {
-  width: 90%;
-  height: 800px;
-  background-image: url('../img/cat.png');
-  background-color: #004963;
-  background-size: 550px 550px;
-  background-position: 90px 300px;
-}
 
 header h1 {
   font-family: "coolvetica";
