@@ -11,10 +11,10 @@ header {
    min-height: 845px;
 }
 
-header h1 {
-   font-family: "coolvetica";
+h1 {
+   font-family: "coolvetica", sans-serif;
    letter-spacing: 4px;
-   color: #ffffff;
+   color: #fff;
    font-size: 8vw;
    position: absolute;
    margin-top: 80px;

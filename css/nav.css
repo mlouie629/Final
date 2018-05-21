@@ -4,10 +4,10 @@ nav {
 
 nav ul {
    padding: 0;
-   margin: 50px;
+   margin: 90px 50px 50px 50px;
    list-style: none;
    float: right;
-   margin-top: 90px;
+   width: 20%;
 }
 
 nav ul li {
