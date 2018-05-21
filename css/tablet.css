@@ -1,6 +1,9 @@
-.blue-monster {
-  background-size: 100px 100px;
-  background-position: 0 100px;
+#container {
+   background: #004963 url('../img/cat.png') no-repeat 90px 300px / 550px 550px;
+   width: 90%;
+   height: 900px;
+   margin: auto;
+   overflow: auto;
 }
 
 header h1 {
