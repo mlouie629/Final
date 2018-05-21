@@ -102,7 +102,7 @@ p {
   margin-left: 80px;
   border-top: 0px solid #fff;
   line-height: 1.6;
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", sans-serif;
   font-weight: 700;
   color: #004963;
   text-align: center;
